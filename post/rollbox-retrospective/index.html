@@ -105,8 +105,8 @@ Ha sido un final " />
     },
     "headline": Rollbox Retrospective,
     "name": Rollbox Retrospective,
-    "wordCount": 1017,
-    "timeRequired": "PT5M",
+    "wordCount": 1084,
+    "timeRequired": "PT6M",
     "inLanguage": {
       "@type": "Language",
       "alternateName": en
@@ -298,7 +298,9 @@ Definimos un &lsquo;draft&rsquo; de buenas prácticas.</p>
 
 <p>Nos fue muy útil que la propia herramienta sea capaz de cambiar el código para hacer cumplir las reglas. ¡Pero ojo! Hay algunas construcciones de Ruby que con cambios automáticos pueden provocar errores, lo que nos llevó a evitar algunas reglas, ya que habría que hacer los cambios manualmente.</p>
 
-<h2 id="reducir-el-número-de-test-fixtures-en-db">Reducir el número de Test Fixtures en DB</h2>
+<h2 id="mejoras-en-los-tests">Mejoras en los tests</h2>
+
+<h3 id="reducir-el-número-de-test-fixtures-en-db">Reducir el número de Test Fixtures en DB</h3>
 
 <p>Este es un trabajo al que dediqué bastante tiempo al principio y quedó sin acabar. Eso si, las fixtures más costosas se eliminaron.</p>
 
@@ -306,6 +308,12 @@ Definimos un &lsquo;draft&rsquo; de buenas prácticas.</p>
 Lo que sí que es innegable es que la suite de tests es más lenta&hellip;</p>
 
 <p>Lo que hicimos fue hacer más explícito que datos se usaban en los tests y evitar cargar fixtures (costosas) al comienzo. El trabajo consistió en reemplazarlas por el uso de <a href="https://github.com/thoughtbot/factory_bot">Factory Bot</a>.</p>
+
+<h3 id="eliminar-broken-windows">Eliminar <em>Broken Windows</em></h3>
+
+<p>Otra cosa que hice, fué cargarme todos los tests que estaban &lsquo;skipeados&rsquo; y eliminar <em>prints</em> o sustituirlos por trazas de <em>nivel info del logger</em>.</p>
+
+<p>Cuando ves una salida &lsquo;sucia&rsquo; y sobre todo cuando hay tests que no se ejecutan no te sientes culpable por &lsquo;dejar mierda&rsquo;. Cuando tienes el entorno limpito, si lo ensucias te sentirás culpable, y cantará mucho.</p>
 
 <h2 id="crecer-el-equipo">Crecer el equipo</h2>
 
