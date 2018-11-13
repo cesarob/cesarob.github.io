@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tejones on Cesarob&#39;s</title>
+    <link>https://cesarob.github.io/tags/tejones/</link>
+    <description>Recent content in Tejones on Cesarob&#39;s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Mon, 12 Nov 2018 20:46:56 +0100</lastBuildDate>
+    
+	<atom:link href="https://cesarob.github.io/tags/tejones/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TejonesConf</title>
+      <link>https://cesarob.github.io/post/tejonesconf/</link>
+      <pubDate>Mon, 12 Nov 2018 20:46:56 +0100</pubDate>
+      
+      <guid>https://cesarob.github.io/post/tejonesconf/</guid>
+      <description>Aunque lo hicimos de una manera bastante improvisada, este fin de semana hicimos la TejonesConf. Fue tan improvisado que ni nos dimos cuenta que este finde era puente&amp;hellip;
+Muchas cosas por mejorar para la segunda, pero el objetivo principal que era que saliese, se cumplió.
+Usamos en twitter el tag #tejonesconf18.
+Salvo Iván que llegó el Jueves para recepcionar la casa (Cuatro Pinos, en Torremocha del Jarama), el resto llegamos a lo largo del Viernes.</description>
+    </item>
+    
+  </channel>
+</rss>

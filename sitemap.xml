@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://cesarob.github.io/post/tejonesconf/</loc>
+    <lastmod>2018-11-12T20:46:56+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cesarob.github.io/post/rollbox-retrospective/</loc>
     <lastmod>2018-10-29T12:19:25+01:00</lastmod>
   </url>
@@ -29,13 +34,19 @@
   
   <url>
     <loc>https://cesarob.github.io/</loc>
-    <lastmod>2018-10-29T12:19:25+01:00</lastmod>
+    <lastmod>2018-11-12T20:46:56+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cesarob.github.io/tags/honeybadgers/</loc>
+    <lastmod>2018-11-12T20:46:56+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://cesarob.github.io/post/</loc>
-    <lastmod>2018-10-29T12:19:25+01:00</lastmod>
+    <lastmod>2018-11-12T20:46:56+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -47,7 +58,13 @@
   
   <url>
     <loc>https://cesarob.github.io/tags/</loc>
-    <lastmod>2018-10-29T12:19:25+01:00</lastmod>
+    <lastmod>2018-11-12T20:46:56+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cesarob.github.io/tags/tejones/</loc>
+    <lastmod>2018-11-12T20:46:56+01:00</lastmod>
     <priority>0</priority>
   </url>
   
