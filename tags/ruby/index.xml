@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruby on Cesarob&#39;s</title>
+    <link>https://cesarob.github.io/tags/ruby/</link>
+    <description>Recent content in Ruby on Cesarob&#39;s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Tue, 30 Oct 2018 14:28:27 +0100</lastBuildDate>
+    
+	<atom:link href="https://cesarob.github.io/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Pythonist in Rubyland</title>
+      <link>https://cesarob.github.io/post/a-pythonist-in-rubyland/</link>
+      <pubDate>Tue, 30 Oct 2018 14:28:27 +0100</pubDate>
+      
+      <guid>https://cesarob.github.io/post/a-pythonist-in-rubyland/</guid>
+      <description>La verdad es que no pensaba que a estas alturas de la película hubiese programado en Ruby. ¿Porque? Porque soy un fanboy de Python y programando en Python no tiene ningun sentido hacerlo en Ruby, ya que son lenguajes que ocupan el mismo nicho. Pero es mas&amp;hellip;, Python está aumentando su uso gracias a la comunidad científica, mientras que Ruby está estancado. Hay una migración real de desarrolladores de Ruby/Rails a Elixir.</description>
+    </item>
+    
+  </channel>
+</rss>

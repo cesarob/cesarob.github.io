@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://cesarob.github.io/post/a-pythonist-in-rubyland/</loc>
+    <lastmod>2018-10-30T14:28:27+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cesarob.github.io/post/rollbox-retrospective/</loc>
     <lastmod>2018-10-29T12:19:25+01:00</lastmod>
   </url>
@@ -51,19 +56,25 @@
   </url>
   
   <url>
+    <loc>https://cesarob.github.io/tags/python/</loc>
+    <lastmod>2018-10-30T14:28:27+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://cesarob.github.io/tags/rollbox/</loc>
     <lastmod>2018-10-29T12:19:25+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://cesarob.github.io/tags/</loc>
-    <lastmod>2018-11-12T20:46:56+01:00</lastmod>
+    <loc>https://cesarob.github.io/tags/ruby/</loc>
+    <lastmod>2018-10-30T14:28:27+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://cesarob.github.io/tags/tejones/</loc>
+    <loc>https://cesarob.github.io/tags/</loc>
     <lastmod>2018-11-12T20:46:56+01:00</lastmod>
     <priority>0</priority>
   </url>

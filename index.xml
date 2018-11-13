@@ -24,6 +24,15 @@ Salvo Iván que llegó el Jueves para recepcionar la casa (Cuatro Pinos, en Torr
     </item>
     
     <item>
+      <title>A Pythonist in Rubyland</title>
+      <link>https://cesarob.github.io/post/a-pythonist-in-rubyland/</link>
+      <pubDate>Tue, 30 Oct 2018 14:28:27 +0100</pubDate>
+      
+      <guid>https://cesarob.github.io/post/a-pythonist-in-rubyland/</guid>
+      <description>La verdad es que no pensaba que a estas alturas de la película hubiese programado en Ruby. ¿Porque? Porque soy un fanboy de Python y programando en Python no tiene ningun sentido hacerlo en Ruby, ya que son lenguajes que ocupan el mismo nicho. Pero es mas&amp;hellip;, Python está aumentando su uso gracias a la comunidad científica, mientras que Ruby está estancado. Hay una migración real de desarrolladores de Ruby/Rails a Elixir.</description>
+    </item>
+    
+    <item>
       <title>Rollbox Retrospective</title>
       <link>https://cesarob.github.io/post/rollbox-retrospective/</link>
       <pubDate>Mon, 29 Oct 2018 12:19:25 +0100</pubDate>
