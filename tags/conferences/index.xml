@@ -6,10 +6,20 @@
     <description>Recent content in Conferences on Cesarob&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Sun, 25 Nov 2018 16:06:27 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 26 Feb 2019 09:53:58 +0100</lastBuildDate>
     
 	<atom:link href="https://cesarob.github.io/tags/conferences/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Wecode 2019</title>
+      <link>https://cesarob.github.io/post/wecode-2019/</link>
+      <pubDate>Tue, 26 Feb 2019 09:53:58 +0100</pubDate>
+      
+      <guid>https://cesarob.github.io/post/wecode-2019/</guid>
+      <description>Es la segunda vez que voy al Wecode. El año pasado no fuí muy activo en lo que es ir a conferencias, pero el Wecode fue una de las dos a las que asistí (la segunda fue la Codemotion).
+He tenido la oportunidad de pillar a última hora una entrada por los pelos, por lo que no dudé ni un momento en ir; ya que el año pasado estuvo genial.</description>
+    </item>
     
     <item>
       <title>Commit Conference</title>
@@ -17,7 +27,7 @@
       <pubDate>Sun, 25 Nov 2018 16:06:27 +0100</pubDate>
       
       <guid>https://cesarob.github.io/post/commit-conf/</guid>
-      <description>La verdad es que no tenía demasiadas ganas de ir, pero tenía la entrada asi que&amp;hellip; ¿cómo iba a romper la tradición de ir a la Commit (ex Codemotion)?
+      <description>La verdad es que no tenía demasiadas ganas de ir, pero tenía la entrada asique&amp;hellip; ¿cómo iba a romper la tradición de ir a la Commit (ex Codemotion)?
 Ahora mismo prefiero otro tipo de eventos, más centrados en la excelencia técnica, pero como siempre he dicho, a la Commit merece la pena ir: está aquí, si no te apetece tragártela entera pues vas cuando te cuadre; y siempre siempre se saca alguna cosilla.</description>
     </item>
     

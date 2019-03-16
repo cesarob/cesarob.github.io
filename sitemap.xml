@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://cesarob.github.io/post/wecode-2019/</loc>
+    <lastmod>2019-02-26T09:53:58+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cesarob.github.io/post/commit-conf/</loc>
     <lastmod>2018-11-25T16:06:27+01:00</lastmod>
   </url>
@@ -44,13 +49,13 @@
   
   <url>
     <loc>https://cesarob.github.io/</loc>
-    <lastmod>2018-11-25T16:06:27+01:00</lastmod>
+    <lastmod>2019-02-26T09:53:58+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://cesarob.github.io/tags/conferences/</loc>
-    <lastmod>2018-11-25T16:06:27+01:00</lastmod>
+    <lastmod>2019-02-26T09:53:58+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -62,7 +67,7 @@
   
   <url>
     <loc>https://cesarob.github.io/post/</loc>
-    <lastmod>2018-11-25T16:06:27+01:00</lastmod>
+    <lastmod>2019-02-26T09:53:58+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -86,7 +91,7 @@
   
   <url>
     <loc>https://cesarob.github.io/tags/</loc>
-    <lastmod>2018-11-25T16:06:27+01:00</lastmod>
+    <lastmod>2019-02-26T09:53:58+01:00</lastmod>
     <priority>0</priority>
   </url>
   
