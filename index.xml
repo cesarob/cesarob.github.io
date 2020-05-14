@@ -6,20 +6,31 @@
     <description>Recent content on Cesarob&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Mon, 11 May 2020 20:27:10 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2020 20:39:12 +0200</lastBuildDate>
     
 	<atom:link href="https://cesarob.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Software publico vs privado</title>
+      <title>Software público vs privado fuera de España</title>
+      <link>https://cesarob.github.io/post/sofware_publico_vs_privado_fuera/</link>
+      <pubDate>Tue, 12 May 2020 20:39:12 +0200</pubDate>
+      
+      <guid>https://cesarob.github.io/post/sofware_publico_vs_privado_fuera/</guid>
+      <description>No tenía pensado hacer este post. Pero es conveniente para complementar el del Software Publico vs Privado en España. Tras escribir el primero, y enseñarselo a Edu rápidamente vi la necesidad.
+La afirmación tan rotunda de que el desarrollo de Software Público sea peor que el privado no aplicaría de un modo global. Habría que verlo país por país.
+Al igual que me pasaba con el desarrollo en España para lo malo, con UK tenía la impresión contraria&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Software publico vs privado en España</title>
       <link>https://cesarob.github.io/post/software_publico_vs_privado/</link>
       <pubDate>Mon, 11 May 2020 20:27:10 +0200</pubDate>
       
       <guid>https://cesarob.github.io/post/software_publico_vs_privado/</guid>
       <description>En estos tiempos de pandemia es un tema que ha salido a colación a raíz de la Sanidad, es el dilema público vs privado, acompañado del mantra de que lo público es mejor que lo privado.
 Yo no estoy de acuerdo; creo que simplemente lo privado y lo público son diferentes. Cada uno aporta ventajas e inconvenientes.
-TL;TR Estaba en una conversación en un chat con colegas y les saqué el tema del desarrollo de software, indicandoles que donde mejor software se desarrolla es en el sector privado.</description>
+TL;TR Estaba en una conversación en un chat con colegas y les saqué el tema del desarrollo de software, indicándoles que donde mejor software se desarrolla es en el sector privado.</description>
     </item>
     
     <item>
