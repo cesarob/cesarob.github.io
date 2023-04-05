@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cesarob&#39;s</title>
@@ -6,10 +6,20 @@
     <description>Recent content on Cesarob&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Sun, 24 May 2020 11:49:44 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 05 Apr 2023 23:51:35 +0200</lastBuildDate>
     
 	<atom:link href="https://cesarob.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>De Em, TL y...</title>
+      <link>https://cesarob.github.io/post/em-tl-and-more/</link>
+      <pubDate>Wed, 05 Apr 2023 23:51:35 +0200</pubDate>
+      
+      <guid>https://cesarob.github.io/post/em-tl-and-more/</guid>
+      <description>Ultimamente veo discusiones sobre estos términos en twitter por lo que voy a hacer una entrada corta de como lo veo yo.
+ Staff Engineer: Es un ingeniero que dedica al menos una parte de su tiempo a temas transversales, pudiendo ser a full time, o incluso por proyectos. Es un referente técnico Principal: Un staff engineer con esteroides. Este si tendrá dedicación completa al role. Tech Lead: Por la semántica podríamos considerar que tanto el staff engineer como el principal podrían ser tech leads (referentes técnicos), pero esa no es la semántica más extendida.</description>
+    </item>
     
     <item>
       <title>Technical Radar Vol.22</title>
@@ -62,7 +72,7 @@ A finales de Noviembre de 2018 me incorporé a Nextail, y estoy muy muy contento
       
       <guid>https://cesarob.github.io/post/wecode-2019/</guid>
       <description>Es la segunda vez que voy al Wecode. El año pasado no fuí muy activo en lo que es ir a conferencias, pero el Wecode fue una de las dos a las que asistí (la segunda fue la Codemotion).
-He tenido la oportunidad de pillar a última hora una entrada por los pelos, por lo que no dudé ni un momento en ir; ya que el año pasado estuvo genial.</description>
+He tenido la oportunidad de pillar a última hora una entrada por los pelos, por lo que no dudé ni un momento en ir; ya que el año pasado estuvo genial. Quería ir no solo porque estaba convencido que no me iba a defraudar sino porque era la ocasión perfecta para hacer networking con amigos que sabía estarían, y para coincidir con compañeros y excompañeros de trabajo.</description>
     </item>
     
     <item>
@@ -125,7 +135,7 @@ Cuando escribí por última vez TheMotion estaba muy revuelto. Había luchas int
       <guid>https://cesarob.github.io/post/themotion-retrospective/</guid>
       <description>Ya en el 2016 escribí sobre mi entrada en TheMotion, tal y como puse ahí ha sido un &amp;lsquo;career inflection point&amp;rsquo;. De mi linked-in:
  I have already a broad career filling different positions being in the Technical Lead role for several years already. I like it as it allows you to be in a position between tech and product and also in direct relationship with processes.
-It is not easy that the What, Who and How get aligned and it is something that has happened in TheMotion.</description>
+  It is not easy that the What, Who and How get aligned and it is something that has happened in TheMotion.</description>
     </item>
     
     <item>

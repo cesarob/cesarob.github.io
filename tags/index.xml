@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Cesarob&#39;s</title>
@@ -6,22 +6,22 @@
     <description>Recent content in Tags on Cesarob&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Tue, 26 Feb 2019 09:53:58 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 05 Apr 2023 23:51:35 +0200</lastBuildDate>
     
 	<atom:link href="https://cesarob.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Conferences</title>
-      <link>https://cesarob.github.io/tags/conferences/</link>
-      <pubDate>Tue, 26 Feb 2019 09:53:58 +0100</pubDate>
+      <title>management</title>
+      <link>https://cesarob.github.io/tags/management/</link>
+      <pubDate>Wed, 05 Apr 2023 23:51:35 +0200</pubDate>
       
-      <guid>https://cesarob.github.io/tags/conferences/</guid>
+      <guid>https://cesarob.github.io/tags/management/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Frameworks</title>
+      <title>frameworks</title>
       <link>https://cesarob.github.io/tags/frameworks/</link>
       <pubDate>Sun, 24 May 2020 11:49:44 +0200</pubDate>
       
@@ -30,16 +30,7 @@
     </item>
     
     <item>
-      <title>Honeybadgers</title>
-      <link>https://cesarob.github.io/tags/honeybadgers/</link>
-      <pubDate>Mon, 12 Nov 2018 20:46:56 +0100</pubDate>
-      
-      <guid>https://cesarob.github.io/tags/honeybadgers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Languages</title>
+      <title>languages</title>
       <link>https://cesarob.github.io/tags/languages/</link>
       <pubDate>Sun, 24 May 2020 11:49:44 +0200</pubDate>
       
@@ -48,16 +39,7 @@
     </item>
     
     <item>
-      <title>Nextail</title>
-      <link>https://cesarob.github.io/tags/nextail/</link>
-      <pubDate>Tue, 31 Dec 2019 19:07:59 +0100</pubDate>
-      
-      <guid>https://cesarob.github.io/tags/nextail/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Platforms</title>
+      <title>platforms</title>
       <link>https://cesarob.github.io/tags/platforms/</link>
       <pubDate>Sun, 24 May 2020 11:49:44 +0200</pubDate>
       
@@ -66,7 +48,70 @@
     </item>
     
     <item>
-      <title>Python</title>
+      <title>techniques</title>
+      <link>https://cesarob.github.io/tags/techniques/</link>
+      <pubDate>Sun, 24 May 2020 11:49:44 +0200</pubDate>
+      
+      <guid>https://cesarob.github.io/tags/techniques/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tools</title>
+      <link>https://cesarob.github.io/tags/tools/</link>
+      <pubDate>Sun, 24 May 2020 11:49:44 +0200</pubDate>
+      
+      <guid>https://cesarob.github.io/tags/tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software-development</title>
+      <link>https://cesarob.github.io/tags/software-development/</link>
+      <pubDate>Tue, 12 May 2020 20:39:12 +0200</pubDate>
+      
+      <guid>https://cesarob.github.io/tags/software-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nextail</title>
+      <link>https://cesarob.github.io/tags/nextail/</link>
+      <pubDate>Tue, 31 Dec 2019 19:07:59 +0100</pubDate>
+      
+      <guid>https://cesarob.github.io/tags/nextail/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retrospective</title>
+      <link>https://cesarob.github.io/tags/retrospective/</link>
+      <pubDate>Tue, 31 Dec 2019 19:07:59 +0100</pubDate>
+      
+      <guid>https://cesarob.github.io/tags/retrospective/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>conferences</title>
+      <link>https://cesarob.github.io/tags/conferences/</link>
+      <pubDate>Tue, 26 Feb 2019 09:53:58 +0100</pubDate>
+      
+      <guid>https://cesarob.github.io/tags/conferences/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>honeybadgers</title>
+      <link>https://cesarob.github.io/tags/honeybadgers/</link>
+      <pubDate>Mon, 12 Nov 2018 20:46:56 +0100</pubDate>
+      
+      <guid>https://cesarob.github.io/tags/honeybadgers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
       <link>https://cesarob.github.io/tags/python/</link>
       <pubDate>Tue, 30 Oct 2018 14:28:27 +0100</pubDate>
       
@@ -75,11 +120,11 @@
     </item>
     
     <item>
-      <title>Retrospective</title>
-      <link>https://cesarob.github.io/tags/retrospective/</link>
-      <pubDate>Tue, 31 Dec 2019 19:07:59 +0100</pubDate>
+      <title>ruby</title>
+      <link>https://cesarob.github.io/tags/ruby/</link>
+      <pubDate>Tue, 30 Oct 2018 14:28:27 +0100</pubDate>
       
-      <guid>https://cesarob.github.io/tags/retrospective/</guid>
+      <guid>https://cesarob.github.io/tags/ruby/</guid>
       <description></description>
     </item>
     
@@ -93,47 +138,11 @@
     </item>
     
     <item>
-      <title>Ruby</title>
-      <link>https://cesarob.github.io/tags/ruby/</link>
-      <pubDate>Tue, 30 Oct 2018 14:28:27 +0100</pubDate>
-      
-      <guid>https://cesarob.github.io/tags/ruby/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software Development</title>
-      <link>https://cesarob.github.io/tags/software-development/</link>
-      <pubDate>Tue, 12 May 2020 20:39:12 +0200</pubDate>
-      
-      <guid>https://cesarob.github.io/tags/software-development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Techniques</title>
-      <link>https://cesarob.github.io/tags/techniques/</link>
-      <pubDate>Sun, 24 May 2020 11:49:44 +0200</pubDate>
-      
-      <guid>https://cesarob.github.io/tags/techniques/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Themotion</title>
+      <title>themotion</title>
       <link>https://cesarob.github.io/tags/themotion/</link>
       <pubDate>Sun, 07 Jan 2018 12:50:04 +0100</pubDate>
       
       <guid>https://cesarob.github.io/tags/themotion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tools</title>
-      <link>https://cesarob.github.io/tags/tools/</link>
-      <pubDate>Sun, 24 May 2020 11:49:44 +0200</pubDate>
-      
-      <guid>https://cesarob.github.io/tags/tools/</guid>
       <description></description>
     </item>
     

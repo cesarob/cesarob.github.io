@@ -1,6 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://cesarob.github.io/</loc>
+    <lastmod>2023-04-05T23:51:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cesarob.github.io/post/em-tl-and-more/</loc>
+    <lastmod>2023-04-05T23:51:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cesarob.github.io/tags/management/</loc>
+    <lastmod>2023-04-05T23:51:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cesarob.github.io/post/</loc>
+    <lastmod>2023-04-05T23:51:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cesarob.github.io/tags/</loc>
+    <lastmod>2023-04-05T23:51:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cesarob.github.io/tags/frameworks/</loc>
+    <lastmod>2020-05-24T11:49:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cesarob.github.io/tags/languages/</loc>
+    <lastmod>2020-05-24T11:49:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cesarob.github.io/tags/platforms/</loc>
+    <lastmod>2020-05-24T11:49:44+02:00</lastmod>
+  </url>
   
   <url>
     <loc>https://cesarob.github.io/post/tech_radar_22/</loc>
@@ -8,7 +48,22 @@
   </url>
   
   <url>
+    <loc>https://cesarob.github.io/tags/techniques/</loc>
+    <lastmod>2020-05-24T11:49:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cesarob.github.io/tags/tools/</loc>
+    <lastmod>2020-05-24T11:49:44+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cesarob.github.io/post/sofware_publico_vs_privado_fuera/</loc>
+    <lastmod>2020-05-12T20:39:12+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cesarob.github.io/tags/software-development/</loc>
     <lastmod>2020-05-12T20:39:12+02:00</lastmod>
   </url>
   
@@ -23,6 +78,21 @@
   </url>
   
   <url>
+    <loc>https://cesarob.github.io/tags/nextail/</loc>
+    <lastmod>2019-12-31T19:07:59+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cesarob.github.io/tags/retrospective/</loc>
+    <lastmod>2019-12-31T19:07:59+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cesarob.github.io/tags/conferences/</loc>
+    <lastmod>2019-02-26T09:53:58+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cesarob.github.io/post/wecode-2019/</loc>
     <lastmod>2019-02-26T09:53:58+01:00</lastmod>
   </url>
@@ -30,6 +100,11 @@
   <url>
     <loc>https://cesarob.github.io/post/commit-conf/</loc>
     <lastmod>2018-11-25T16:06:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cesarob.github.io/tags/honeybadgers/</loc>
+    <lastmod>2018-11-12T20:46:56+01:00</lastmod>
   </url>
   
   <url>
@@ -43,6 +118,21 @@
   </url>
   
   <url>
+    <loc>https://cesarob.github.io/tags/python/</loc>
+    <lastmod>2018-10-30T14:28:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cesarob.github.io/tags/ruby/</loc>
+    <lastmod>2018-10-30T14:28:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cesarob.github.io/tags/rollbox/</loc>
+    <lastmod>2018-10-29T12:19:25+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cesarob.github.io/post/rollbox-retrospective/</loc>
     <lastmod>2018-10-29T12:19:25+01:00</lastmod>
   </url>
@@ -50,6 +140,11 @@
   <url>
     <loc>https://cesarob.github.io/post/rollbox/</loc>
     <lastmod>2018-09-15T20:39:27+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cesarob.github.io/tags/themotion/</loc>
+    <lastmod>2018-01-07T12:50:04+01:00</lastmod>
   </url>
   
   <url>
@@ -64,109 +159,6 @@
   
   <url>
     <loc>https://cesarob.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cesarob.github.io/</loc>
-    <lastmod>2020-05-24T11:49:44+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cesarob.github.io/tags/conferences/</loc>
-    <lastmod>2019-02-26T09:53:58+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cesarob.github.io/tags/frameworks/</loc>
-    <lastmod>2020-05-24T11:49:44+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cesarob.github.io/tags/honeybadgers/</loc>
-    <lastmod>2018-11-12T20:46:56+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cesarob.github.io/tags/languages/</loc>
-    <lastmod>2020-05-24T11:49:44+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cesarob.github.io/tags/nextail/</loc>
-    <lastmod>2019-12-31T19:07:59+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cesarob.github.io/tags/platforms/</loc>
-    <lastmod>2020-05-24T11:49:44+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cesarob.github.io/post/</loc>
-    <lastmod>2020-05-24T11:49:44+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cesarob.github.io/tags/python/</loc>
-    <lastmod>2018-10-30T14:28:27+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cesarob.github.io/tags/retrospective/</loc>
-    <lastmod>2019-12-31T19:07:59+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cesarob.github.io/tags/rollbox/</loc>
-    <lastmod>2018-10-29T12:19:25+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cesarob.github.io/tags/ruby/</loc>
-    <lastmod>2018-10-30T14:28:27+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cesarob.github.io/tags/software-development/</loc>
-    <lastmod>2020-05-12T20:39:12+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cesarob.github.io/tags/</loc>
-    <lastmod>2019-02-26T09:53:58+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cesarob.github.io/tags/techniques/</loc>
-    <lastmod>2020-05-24T11:49:44+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cesarob.github.io/tags/themotion/</loc>
-    <lastmod>2018-01-07T12:50:04+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cesarob.github.io/tags/tools/</loc>
-    <lastmod>2020-05-24T11:49:44+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>

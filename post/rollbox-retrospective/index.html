@@ -64,7 +64,7 @@ Ha sido un final " />
       
       
     
-    <meta name="generator" content="Hugo 0.40.1" />
+    <meta name="generator" content="Hugo 0.68.3" />
 
     <link rel="canonical" href="https://cesarob.github.io/post/rollbox-retrospective/" />
 
@@ -77,21 +77,21 @@ Ha sido un final " />
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name": ,
-        "logo": https://cesarob.github.io/images/logo.png
+        "name":  null ,
+        "logo": "https://cesarob.github.io/images/logo.png"
     },
     "author": {
         "@type": "Person",
-        "name": ,
+        "name":  null ,
         
         "image": {
             "@type": "ImageObject",
-            "url": https://cesarob.github.io/images/logo.png,
+            "url": "https://cesarob.github.io/images/logo.png",
             "width": 250,
             "height": 250
         }, 
         
-        "url": ,
+        "url":  null ,
         "sameAs": [
             
             
@@ -103,30 +103,30 @@ Ha sido un final " />
             
         ]
     },
-    "headline": Rollbox Retrospective,
-    "name": Rollbox Retrospective,
-    "wordCount": 1140,
+    "headline": "Rollbox Retrospective",
+    "name": "Rollbox Retrospective",
+    "wordCount":  1140 ,
     "timeRequired": "PT6M",
     "inLanguage": {
       "@type": "Language",
-      "alternateName": en
+      "alternateName": "en"
     },
-    "url": https://cesarob.github.io/post/rollbox-retrospective/,
-    "datePublished": 2018-10-29T12:19Z,
-    "dateModified": 2018-10-29T12:19Z,
+    "url": "https://cesarob.github.io/post/rollbox-retrospective/",
+    "datePublished": "2018-10-29T12:19Z",
+    "dateModified": "2018-10-29T12:19Z",
     
     "image": {
         "@type": "ImageObject",
-        "url": https://cesarob.github.io//images/lopetegui.jpg,
+        "url": "https://cesarob.github.io//images/lopetegui.jpg",
         "width": 3000,
         "height": 1445
     },
     
-    "keywords": Rollbox,
-    "description": ,
+    "keywords": "Rollbox",
+    "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": https://cesarob.github.io/post/rollbox-retrospective/
+        "@id": "https://cesarob.github.io/post/rollbox-retrospective/"
     }
 }
     </script>
@@ -214,117 +214,67 @@ Ha sido un final " />
     </header>
 
     <section class="post-content">
-      
-
-<p>Al final la aventura de Rollbox duró 4 meses&hellip; Resulta irónico que la aventura haya acabado justo cuando publiqué el post sobre Rollbox.</p>
-
+      <p>Al final la aventura de Rollbox duró 4 meses&hellip; Resulta irónico que la aventura haya acabado justo cuando publiqué el post sobre Rollbox.</p>
 <p>Ha sido un final inesperado. Si es inesperado está claro que una de las partes no ha hecho bien su trabajo. Ahí lo dejo&hellip;</p>
-
 <p>Igual que comenté todo lo bueno de Rollbox (que lo sigo manteniendo y creo les irá bien), también tengo que comentar que tienen un proceso de terminar una relación laboral muy mejorable, IMO claro&hellip;</p>
-
 <p>Para mi ha sido una decepción, pero en el plano personal. Los detalles me los guardo también en ese plano.</p>
-
 <p>Al final no ha habido encaje, y viéndolo en retrospectiva considero que hicieron un &lsquo;spike&rsquo; que no funcionó. IMO no están preparados para este puesto en el
 momento actual. Me guardo también los porqués.</p>
-
 <h2 id="que-hemos-conseguido-en-este-tiempo">Que hemos conseguido en este tiempo</h2>
-
 <p>Bueno vayamos a las cosas buenas&hellip;</p>
-
 <p>Siempre cuando empiezas quieres correr mucho, pero aun sabiéndolo cuesta a veces asumirlo y toca pisar el freno. A mi me ha tocado pisarlo&hellip; Al final tienes que ir dejando que el equipo vaya poco a poco incorporando cambios. Cada equipo tiene su propio ritmo.</p>
-
 <p>Luego hay otras cosas que simplemente no ha da dado tiempo de mejorar, o que incluso se han quedado a medias, como hacer uso en toda la base de código de <a href="https://stackify.com/what-is-structured-logging-and-why-developers-need-it/">structured logging</a>. Integré <a href="https://github.com/tilfin/ougai">ougai</a>.</p>
-
 <p>Veamos que cosas si que hemos conseguido en este tiempo&hellip;</p>
-
-<h2 id="un-flujo-de-trabajo-más-agile-lean">Un flujo de trabajo más agile/lean.</h2>
-
+<h2 id="un-flujo-de-trabajo-más-agilelean">Un flujo de trabajo más agile/lean.</h2>
 <p>Se pasó de un flujo de asignación de tareas a &lsquo;recursos&rsquo; a un flujo mas agile. Implementamos un <a href="https://leankit.com/learn/agile/what-is-scrumban/">Scrumban</a> con sprints de 1 semana.
 Como ya he vivido en el pasado afinar el flujo es algo que requiere bastante tiempo&hellip; En estos 4 meses iteramos bastante sobre él, y todavía quedaba trabajo ahí.
 Los sprints de una semana son muy demandantes a nivel de producto, y estaba pendiente reforzar esa parte del equipo.</p>
-
 <p>Como herramienta usamos <a href="https://www.atlassian.com/software/jira">Jira</a>.</p>
-
 <p>En la última etapa se crearon dos tableros más. Creamos un par de squads temporales teniendo cada uno su tablero. 3 squads == 3 tableros.</p>
-
-<h2 id="definir-roles-de-soporte-oncall">Definir roles de soporte/oncall</h2>
-
+<h2 id="definir-roles-de-soporteoncall">Definir roles de soporte/oncall</h2>
 <p>Básicamente el role de <strong>soporte</strong> se encargaba de ayudar el equipo de operaciones para resolver incidencias que ellos no podían resolver.
 El role de <strong>oncall</strong> (en horario de oficina) se encargaba de monitorizar que todo funcionaba correctamente y no había problemas en el sistema.</p>
-
 <p>Se oficializó el tener un role de soporte (que también se encargaba del oncall) rotativo. Esto nos permitió:</p>
-
 <ul>
 <li>Repartir esa carga de trabajo (muy alta). Quien no estaba en soporte podía focalizarse en desarrollo. Aún así a veces incluso el resto del equipo tenía que echar un cable.</li>
 <li>Extender el know-how. Al comienzo incluso tuvimos a dos personas, uno de los nuevos en oncall y uno de los veteranos de apoyo.</li>
 </ul>
-
 <p>Como soporte era muy demandante, no se estaba prestando la atención necesaria al oncall. Mi última decisión fue separarlos. El de oncall, realmente era poco demandante, y se podía realizar durante el trabajo normal de desarrollo.</p>
-
 <p>A mi personalmente me gusta tener oncall explícito porque siempre hay gente muy dispuesta a ver como están las cosas, pero hay gente a la que le cuesta&hellip;  Al final lo acaban haciendo siempre los mismos. Con roles explícitos te quitas ese problema&hellip;</p>
-
 <h2 id="hacer-funcionar-muy-bien-el-remoto">Hacer funcionar muy bien el remoto</h2>
-
 <p>Esto fue muy fácil. Justo tras mi incorporación se incorporaron dos personas en remoto 100% y con experiencia previa ya en remoto.
 Para las reuniones internas empezamos a usar <a href="https://zoom.us/">Zoom</a>.</p>
-
 <p>Pasamos a usar la regla de &lsquo;uno remoto todos remotos&rsquo;.
 Definimos un &lsquo;draft&rsquo; de buenas prácticas.</p>
-
 <p>Una cosa que hicimos y que cuando estabas en remoto molaba, era la posibilidad de ver la oficina. Pusimos un portatil que no estaba en uso con un <em>meet</em> permanente apuntando a la ofi.</p>
-
 <h2 id="conseguir-más-compartición-de-conocimiento">Conseguir más compartición de conocimiento</h2>
-
 <p>Como ya he comentado, el definir el rol explícito de soporte ayudó. El otro factor clave fue crear diferentes diarios (en orden de mayor a menor contenido): <strong>Soporte</strong>, <strong>Desarrollo</strong> e <strong>Infraestructura</strong>.</p>
-
 <p>Soy muy fan de los diarios por dos motivos:</p>
-
 <ul>
 <li>Es una documentación informal</li>
 <li>Al ser un diario la &lsquo;deprecación&rsquo; se asume, por lo que te quitas de un plumazo la responsabilidad de mantener documentación</li>
 </ul>
-
 <p>Quedó pendiente el usar <a href="https://twitter.com/eferro/status/1005112574311100418">Incident Reports</a>. Pero como ya he comentado la parte de oncall tenía muy poco trabajo y uno de los silos existentes era infraestructura.</p>
-
 <p>Aparte de infraestructura, sólo había un silo más, que explícitamente pospusimos abordar por falta de capacidad para hacerlo (en el momento actual).</p>
-
 <h2 id="hacer-uso-de-docker-en-el-entorno-de-desarrollo">Hacer uso de docker en el entorno de desarrollo</h2>
-
 <p>En producción ya se usaba pero en desarrollo no. Fue un cambio sencillo.</p>
-
 <p>Aquí quedó trabajo por hacer en toda la parte de generación de imágenes para producción, pero no era el momento de abordarlo&hellip;</p>
-
 <h2 id="mejorar-la-consistencia-de-la-base-de-código-introducción-de-linter">Mejorar la consistencia de la base de código (introducción de linter)</h2>
-
 <p>Empezamos a usar <a href="https://github.com/rubocop-hq/rubocop">Rubocop</a>.</p>
-
 <p>Al ser una introducción tardía y una base de código muy grande, nos tuvimos que limitar a meter sólo reglas de <strong>Layout</strong> (e incluso no todas).</p>
-
 <p>Nos fue muy útil que la propia herramienta sea capaz de cambiar el código para hacer cumplir las reglas. ¡Pero ojo! Hay algunas construcciones de Ruby que con cambios automáticos pueden provocar errores, lo que nos llevó a evitar algunas reglas, ya que habría que hacer los cambios manualmente.</p>
-
 <h2 id="mejoras-en-los-tests">Mejoras en los tests</h2>
-
 <h3 id="reducir-el-número-de-test-fixtures-en-db">Reducir el número de Test Fixtures en DB</h3>
-
 <p>Este es un trabajo al que dediqué bastante tiempo al principio y quedó sin acabar. Eso si, las fixtures más costosas se eliminaron.</p>
-
 <p>El problema de usar un framework es que es muy fácil acoplarse a la BD y es muy intuitivo el tocar la BD en los tests unitarios. Eso hay gente que lo ve bien, y gente que no&hellip;
 Lo que sí que es innegable es que la suite de tests es más lenta&hellip;</p>
-
 <p>Lo que hicimos fue hacer más explícito que datos se usaban en los tests y evitar cargar fixtures (costosas) al comienzo. El trabajo consistió en reemplazarlas por el uso de <a href="https://github.com/thoughtbot/factory_bot">Factory Bot</a>.</p>
-
 <h3 id="eliminar-broken-windows">Eliminar <em>Broken Windows</em></h3>
-
 <p>Otra cosa que hice, fué cargarme todos los tests que estaban &lsquo;skipeados&rsquo; y eliminar <em>prints</em> o sustituirlos por trazas de <em>nivel info del logger</em>.</p>
-
 <p>Cuando ves una salida &lsquo;sucia&rsquo; y sobre todo cuando hay tests que no se ejecutan no te sientes culpable por &lsquo;dejar mierda&rsquo;. Cuando tienes el entorno limpito, si lo ensucias te sentirás culpable, y cantará mucho.</p>
-
 <h2 id="crecer-el-equipo">Crecer el equipo</h2>
-
 <p>Cuando yo empecé el equipo se duplicó, pasando a ocho. Coincidiendo con mi marcha se incorporaron un par de personas (una remota 100%).</p>
-
 <p>Conseguimos estar en un estado de volver a crecer gracias a que todo el mundo incorporado cuatro meses atrás ya era productivo al 100% creo que principalmente a cómo hemos logrado la compartición del conocimiento.</p>
-
 <p>Cualquier miembro del equipo puede hacer el trabajo de acompañar a las nuevas incorporaciones.</p>
 
     </section>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>management on Cesarob&#39;s</title>
+    <link>https://cesarob.github.io/tags/management/</link>
+    <description>Recent content in management on Cesarob&#39;s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Wed, 05 Apr 2023 23:51:35 +0200</lastBuildDate>
+    
+	<atom:link href="https://cesarob.github.io/tags/management/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>De Em, TL y...</title>
+      <link>https://cesarob.github.io/post/em-tl-and-more/</link>
+      <pubDate>Wed, 05 Apr 2023 23:51:35 +0200</pubDate>
+      
+      <guid>https://cesarob.github.io/post/em-tl-and-more/</guid>
+      <description>Ultimamente veo discusiones sobre estos términos en twitter por lo que voy a hacer una entrada corta de como lo veo yo.
+ Staff Engineer: Es un ingeniero que dedica al menos una parte de su tiempo a temas transversales, pudiendo ser a full time, o incluso por proyectos. Es un referente técnico Principal: Un staff engineer con esteroides. Este si tendrá dedicación completa al role. Tech Lead: Por la semántica podríamos considerar que tanto el staff engineer como el principal podrían ser tech leads (referentes técnicos), pero esa no es la semántica más extendida.</description>
+    </item>
+    
+  </channel>
+</rss>
