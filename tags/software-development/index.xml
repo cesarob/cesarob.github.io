@@ -6,10 +6,21 @@
     <description>Recent content in software-development on Cesarob&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Tue, 12 May 2020 20:39:12 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 28 Feb 2023 11:19:59 +0100</lastBuildDate>
     
 	<atom:link href="https://cesarob.github.io/tags/software-development/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Junior dev training map</title>
+      <link>https://cesarob.github.io/post/junior-dev-training-map/</link>
+      <pubDate>Tue, 28 Feb 2023 11:19:59 +0100</pubDate>
+      
+      <guid>https://cesarob.github.io/post/junior-dev-training-map/</guid>
+      <description>En Nextail durante una epoca me tocó hacer banstantes onboardings de gente para Data Science. Por lo general es gente a la que le falta mucho conocimiento de lo que en nuestro mundillo están consideradas buenas practicas de programación.
+Este documento es un documentao adaptado del original que usé internamente, que nunca pasó de ser un borrador&amp;hellip;
+El objetivo es tener una guía para que una persona Junior sepa en que cosas puede mejorar.</description>
+    </item>
     
     <item>
       <title>Software público vs privado fuera de España</title>

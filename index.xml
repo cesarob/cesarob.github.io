@@ -22,6 +22,17 @@
     </item>
     
     <item>
+      <title>Junior dev training map</title>
+      <link>https://cesarob.github.io/post/junior-dev-training-map/</link>
+      <pubDate>Tue, 28 Feb 2023 11:19:59 +0100</pubDate>
+      
+      <guid>https://cesarob.github.io/post/junior-dev-training-map/</guid>
+      <description>En Nextail durante una epoca me tocó hacer banstantes onboardings de gente para Data Science. Por lo general es gente a la que le falta mucho conocimiento de lo que en nuestro mundillo están consideradas buenas practicas de programación.
+Este documento es un documentao adaptado del original que usé internamente, que nunca pasó de ser un borrador&amp;hellip;
+El objetivo es tener una guía para que una persona Junior sepa en que cosas puede mejorar.</description>
+    </item>
+    
+    <item>
       <title>Technical Radar Vol.22</title>
       <link>https://cesarob.github.io/post/tech_radar_22/</link>
       <pubDate>Sun, 24 May 2020 11:49:44 +0200</pubDate>
