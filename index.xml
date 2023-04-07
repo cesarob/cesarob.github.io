@@ -13,30 +13,30 @@
     
     <item>
       <title>Recursos sobre DDD</title>
-      <link>https://cesarob.github.io/post/post-title/</link>
+      <link>https://cesarob.github.io/post/recursos-ddd/</link>
       <pubDate>Sat, 08 Apr 2023 00:03:32 +0200</pubDate>
       
-      <guid>https://cesarob.github.io/post/post-title/</guid>
+      <guid>https://cesarob.github.io/post/recursos-ddd/</guid>
       <description>Van a ir una serie de entradas sobre DDD, por lo que aprovecho para publicar unos recursos que tenía por ahí&amp;hellip; Si encuento cosas interesantes iré actualizado la entrada.
  Fran Iglesias ha escrito bastante en español sobre DDD. DDD reference Mi primer contacto con DDD fueron unas charlas en PluralSight. Hace mucho tiempo que las vi, por lo que ahora mismo no puedo opinar sobre ellas. No que quedó claro el cotarro, por lo que supongo serán un poco meh.</description>
     </item>
     
     <item>
       <title>De Em, TL y...</title>
-      <link>https://cesarob.github.io/post/em-tl-and-more/</link>
+      <link>https://cesarob.github.io/post/em-tl-y/</link>
       <pubDate>Wed, 05 Apr 2023 23:51:35 +0200</pubDate>
       
-      <guid>https://cesarob.github.io/post/em-tl-and-more/</guid>
+      <guid>https://cesarob.github.io/post/em-tl-y/</guid>
       <description>Ultimamente veo discusiones sobre estos términos en twitter por lo que voy a hacer una entrada corta de como lo veo yo.
  Staff Engineer: Es un ingeniero que dedica al menos una parte de su tiempo a temas transversales, pudiendo ser a full time, o incluso por proyectos. Es un referente técnico Principal: Un staff engineer con esteroides. Este si tendrá dedicación completa al role. Tech Lead: Por la semántica podríamos considerar que tanto el staff engineer como el principal podrían ser tech leads (referentes técnicos), pero esa no es la semántica más extendida.</description>
     </item>
     
     <item>
-      <title>Junior dev training map</title>
-      <link>https://cesarob.github.io/post/junior-dev-training-map/</link>
+      <title>Una mapa para desarrolladores junior</title>
+      <link>https://cesarob.github.io/post/mapa-desarrolladores-junior/</link>
       <pubDate>Tue, 28 Feb 2023 11:19:59 +0100</pubDate>
       
-      <guid>https://cesarob.github.io/post/junior-dev-training-map/</guid>
+      <guid>https://cesarob.github.io/post/mapa-desarrolladores-junior/</guid>
       <description>En Nextail durante una epoca me tocó hacer banstantes onboardings de gente para Data Science. Por lo general es gente a la que le falta mucho conocimiento de lo que en nuestro mundillo están consideradas buenas practicas de programación.
 Este documento es un documentao adaptado del original que usé internamente, que nunca pasó de ser un borrador&amp;hellip;
 El objetivo es tener una guía para que una persona Junior sepa en que cosas puede mejorar.</description>
