@@ -21,5 +21,15 @@
  Fran Iglesias ha escrito bastante en español sobre DDD. DDD reference Mi primer contacto con DDD fueron unas charlas en PluralSight. Hace mucho tiempo que las vi, por lo que ahora mismo no puedo opinar sobre ellas. No que quedó claro el cotarro, por lo que supongo serán un poco meh.</description>
     </item>
     
+    <item>
+      <title>Entendiendo DDD</title>
+      <link>https://cesarob.github.io/post/entendiendo-ddd/</link>
+      <pubDate>Fri, 07 Apr 2023 23:32:37 +0200</pubDate>
+      
+      <guid>https://cesarob.github.io/post/entendiendo-ddd/</guid>
+      <description>Es curioso que justo cuando tenía este post en borrador (lleva ahí un tiempo) vi movimiento en twitter. He visto que recientemente se han publicado varios videos que tengo pendiente de ver. Al final el post que tenía pensado lo dividiré en un par de ellos y es muy posible que caiga alguno mas.
+Llevo oyendo sobre Domain Driven Design (DDD) desde hace realmente un montón de años, pero nunca he tenido la ocasión de explícitamente aplicarlo.</description>
+    </item>
+    
   </channel>
 </rss>

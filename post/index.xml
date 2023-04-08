@@ -22,6 +22,16 @@
     </item>
     
     <item>
+      <title>Entendiendo DDD</title>
+      <link>https://cesarob.github.io/post/entendiendo-ddd/</link>
+      <pubDate>Fri, 07 Apr 2023 23:32:37 +0200</pubDate>
+      
+      <guid>https://cesarob.github.io/post/entendiendo-ddd/</guid>
+      <description>Es curioso que justo cuando tenía este post en borrador (lleva ahí un tiempo) vi movimiento en twitter. He visto que recientemente se han publicado varios videos que tengo pendiente de ver. Al final el post que tenía pensado lo dividiré en un par de ellos y es muy posible que caiga alguno mas.
+Llevo oyendo sobre Domain Driven Design (DDD) desde hace realmente un montón de años, pero nunca he tenido la ocasión de explícitamente aplicarlo.</description>
+    </item>
+    
+    <item>
       <title>De Em, TL y...</title>
       <link>https://cesarob.github.io/post/em-tl-y/</link>
       <pubDate>Wed, 05 Apr 2023 23:51:35 +0200</pubDate>

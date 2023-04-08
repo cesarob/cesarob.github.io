@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="es-es">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+    
+        <meta name="twitter:card" content="summary"/>
+    
+
+
+
+<meta name="twitter:title" content="Entendiendo DDD"/>
+<meta name="twitter:description" content=""/>
+<meta name="twitter:site" content="@cesarob"/>
+
+
+
+  	<meta property="og:title" content="Entendiendo DDD &middot; Cesarob&#39;s" />
+  	<meta property="og:site_name" content="Cesarob&#39;s" />
+  	<meta property="og:url" content="https://cesarob.github.io/post/entendiendo-ddd/" />
+
+    
+        
+            <meta property="og:image" content="/images/cover.jpg"/>
+        
+    
+
+    
+    <meta property="og:description" content="" />
+  	<meta property="og:type" content="article" />
+    <meta property="article:published_time" content="2023-04-07T23:32:37&#43;02:00" />
+
+    
+    <meta property="article:tag" content="ddd" />
+    
+    
+
+    <title>Entendiendo DDD &middot; Cesarob&#39;s</title>
+
+    
+    <meta name="description" content="Es curioso que justo cuando tenía este post en borrador (lleva ahí un tiempo) vi movimiento en twitter. He visto que recientemente se han publicado varios video" />
+    
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/images/favicon.ico">
+	  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/css/nav.css" />
+
+    
+
+    
+
+    
+      
+          <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Cesarob&#39;s" />
+      
+      
+    
+    <meta name="generator" content="Hugo 0.68.3" />
+
+    <link rel="canonical" href="https://cesarob.github.io/post/entendiendo-ddd/" />
+
+    
+      
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name":  null ,
+        "logo": "https://cesarob.github.io/images/logo.png"
+    },
+    "author": {
+        "@type": "Person",
+        "name":  null ,
+        
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://cesarob.github.io/images/logo.png",
+            "width": 250,
+            "height": 250
+        }, 
+        
+        "url":  null ,
+        "sameAs": [
+            
+            
+             
+             
+             
+             
+             
+            
+        ]
+    },
+    "headline": "Entendiendo DDD",
+    "name": "Entendiendo DDD",
+    "wordCount":  1099 ,
+    "timeRequired": "PT6M",
+    "inLanguage": {
+      "@type": "Language",
+      "alternateName": "en"
+    },
+    "url": "https://cesarob.github.io/post/entendiendo-ddd/",
+    "datePublished": "2023-04-07T23:32Z",
+    "dateModified": "2023-04-07T23:32Z",
+    
+    "keywords": "ddd",
+    "description": "",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cesarob.github.io/post/entendiendo-ddd/"
+    }
+}
+    </script>
+    
+
+
+    
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-111824175-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        
+    </ul>
+
+    
+    <a class="subscribe-button icon-feed" href="/index.xml">Subscribe</a>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+      <a class="blog-logo" href="https://cesarob.github.io/"><img src="/images/logo.png" alt="Home" /></a>
+  
+  
+      <a class="menu-button icon-feed" href="/index.xml" >&nbsp;&nbsp;Subscribe</a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">Entendiendo DDD</h1>
+        <small></small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2023-04-07T23:32:37&#43;02:00">
+            Apr 7, 2023
+          </time>
+        
+         
+          <span class="post-tag small"><a href="https://cesarob.github.io//tags/ddd/">#ddd</a></span>
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      <p>Es curioso que justo cuando tenía este post en borrador (lleva ahí un tiempo) vi movimiento en twitter.
+He visto que recientemente se han publicado varios videos que tengo pendiente de ver.
+Al final el post que tenía pensado lo dividiré en un par de ellos y es muy posible que caiga alguno mas.</p>
+<p>Llevo oyendo sobre Domain Driven Design (DDD) desde hace realmente un montón de años, pero nunca he tenido la ocasión de explícitamente aplicarlo.
+Ya por el 2015 o así me vi algunos videos y algún curso online, pero tampoco llegué a pillar el hype. Y ese run run ha seguido ahí….</p>
+<p>Pues bien, a principios del 2022 tuve ocasión de hacer un curso impartido por <a href="https://codesai.com/">Codesai</a> y ahí vi la luz.</p>
+<p>A pesar de ver la luz, realmente no he llegado a poner en práctica los aprendizajes. Intentamos por nuestra cuenta, un poco haciendo uso de Magic Time pero fallamos miserablemente.</p>
+<p>Posteriormente dentro de la casa si tuve la ocasión de ver que en el tema de los subdominios se había hecho un currazo, donde nosotros habíamos fallado…</p>
+<p>¿Por qué estoy sacando ahora este tema? Pues porque estoy leyendo un libro que me parece buenísimo, y estoy refrescando el curso de Codesai.
+El libro en cuestión es <a href="https://www.amazon.com/Learning-Domain-Driven-Design-Aligning-Architecture/dp/1098100131">Learning Domain-Driven Design</a> de Vlad Khononov, y me está sirviendo para cimentar lo ya visto con Codesai.</p>
+<p>Si con lo que pongo a continuación os entran ganas de más, pues ya tenéis una referencia reciente para profundizar…</p>
+<h2 id="porque-surge-ddd">¿Porque surge DDD?</h2>
+<p>DDD surge para evitar el <a href="https://en.wikipedia.org/wiki/Big_ball_of_mud">BBoM</a> (Big Ball of Mad, término acuñado por by Brian Foote). Los principales problemas de un BBoM son:</p>
+<ul>
+<li>Falta de foco en el dominio</li>
+<li>Falta de un lenguaje común</li>
+<li>Código sin organización</li>
+</ul>
+<h2 id="cual-era-mi-problema">¿Cual era mi problema?</h2>
+<p>Pues el mismo de mucha gente… No hemos ido a lo importante.
+Si preguntas a alguien que si sabe de DDD, la mayoría te dirá que sí, lo de los agregados, repositorios y tal…</p>
+<p>Y ese es el problema. De hecho <a href="https://twitter.com/ericevans0?lang=en">Eric Evans</a> reconoce que él es el gran culpable de que la gente haya entendido mal DDD, por poner la parte táctica primero en el libro, cuando lo realmente importante de DDD es la parte estratégica.</p>
+<p>Cuando lo he entendido es cuando me ha hecho click la cabeza. Lo realmente importante es trabajar bien el Dominio, definir los Subdominios y luego los llamados Bounded Contexts.</p>
+<p>Los patrones tácticos son recomendaciones para implementar ese dominio. Podrías usar otros patrones…</p>
+<p>No tengo el libro azul, por lo que no se como trata la parte del dominio, pero el libro de Vlad Khononov lo trata muy bien.</p>
+<p>En el momento de escribir esto estoy leyendo un capitulo sobre como aplicar los patrones tácticos en funcion del tipo del dominio aplicando heurísticos. Super interesante. Creo sobre ello va a ir un post futuro.</p>
+<h2 id="diseño-estratégico">Diseño Estratégico</h2>
+<p>¿Y porque es lo importante? Pues porque, como ya he comentado, podrías no usar los patrones tácticos y seguirías haciendo DDD.Evidentemente no haciendo el canelo… Vamos que la calidad no es negociable, pero vamos… podrías no usar agregados, por poner un ejemplo. Podrías por ejemplo usar IDD de Sandro Mancuso.</p>
+<p>Dicho esto&hellip; ¿Son interesantes los agregados? (que es una de las cosas rarunas así de primeras de DDD) Pues si tu modelo es muy grande diría que sí, pues te ayudan a organizar el código de una manera muy clara.</p>
+<p>Veamos así a vuelo rasante algunas cosas del DDD estratégico. Por completar un poco el post, porque lo imporante ya está dicho, que es esta autonota reflexiva sobre DDD.</p>
+<h3 id="lenguaje-ubiquo">Lenguaje ubiquo</h3>
+<p>Es clave usar un lenguaje claro que todo el mundo entienda. Que no haya ambigüedades.
+Puedes inventarte una palabra. Ejemplo: twit.</p>
+<h3 id="subdominos">Subdominos</h3>
+<p>El tema de los subdominios es clave. Es vital el definir bien cuales son esos dominios y clasificarlos como <strong>core</strong>, <strong>generic</strong> o <strong>supporting</strong>. ¿Por que? Porque las estratégia como atacarlo cambia radicalmente.</p>
+<p>Por ejemplo si un dominio es core, jamás debieras externalizar, mientras que si uno que es supporting pues podrías.</p>
+<p>Si un dominio es genérico, lo más interesante es que uses herramientas genéricas que haya en el mercado en lugar de desarrollarlo. Ejemplo: Single Sign On.</p>
+<p>Otro tema clave, es el modelo. Un modelo es una representación de la realidad. Por ejemplo, un mapa es un modelo. Un mapa físico es un modelo y un mapa político es otro.</p>
+<p>Cada subdominio tendrá su correspondiente modelo, pero ¡ojo! No tiene porqué limitarse a uno solo. Quizás un determinado problema requiere un modelo alternativo que le vaya mejor.</p>
+<h3 id="bounded-context">Bounded Context</h3>
+<blockquote>
+<p>“Subdomains are discovered and bounded contexts are designed”</p>
+</blockquote>
+<p>Junto con el agregado quizás sea el concepto más vago. El más complicado de entender… Y sin embargo es vital.</p>
+<p>Quizás la forma más sencilla de entenderlo es confrontando con los subdominios. Tanto los subdominios como los Bounded Contexts (BC) permiten dividir el dominio pero lo hacen de una manera diferente.
+Mientras que los subdominios nacen del análisis de cómo funciona el negocio, son más descriptivos, los BC son diseñados, en base a decisiones estratégicas. Permiten dividir el dominio de negocio en entidades más manejables.</p>
+<p>Los BC tienen un par de restricciones:</p>
+<ul>
+<li>Tienen un lenguaje ubicuo (solo uno)</li>
+<li>Los gestiona un equipo</li>
+</ul>
+<p>Es perfectamente viable tener un sólo BC con todos los subdominios (un monolito). Como perfectamente viable tener un subdominio por BC.</p>
+<p>Como los BC se diseñan, hay que decidir cuáles son sus límites.
+Ante la duda, lo mejor es hacer el BC mas grande, ya que dividir siempre será mas sencillo (recuerda que los límites lógicos ya los habrás establecido).</p>
+<h4 id="limites-fisicos">Limites fisicos</h4>
+<p>Se refiere a cosas como repositorios de código, artefactos desplegables, etc.
+Cada BC se debe implementar, evolucionar y versionar independientemente de otros BC.</p>
+<p>Cuando un BC contiene varios subdominios el BC establece un límite físico, y entre los diferentes subdominios hay un límite lógico.
+Para establecer los límites lógicos usaremos características del lenguaje de programación como packages, modules o namespaces.</p>
+<h4 id="límites-de-propiedad">Límites de propiedad</h4>
+<p>Un BC es gestionado por un sólo equipo, pero un equipo puede gestionar varios BC.</p>
+<h3 id="event-storming">Event Storming</h3>
+<p>Lo meto, simplemente por mencionar la técnica, ya que es muy buena para explorar la solución. A la hora de hacer un event storming básicamente tienes dos opciones:</p>
+<ul>
+<li>Empezar por el final: más foco en el valor, se limitan las opciones.</li>
+<li>Empezar por el comienzo: más foco en la exploración</li>
+</ul>
+<h3 id="documentación">Documentación</h3>
+<p>Si has aplicado DDD estratético vas a tener una documentación fantástica de tus sistema, y que va a facilitar los onboardings, ya que tendrás:</p>
+<ul>
+<li>Diagramas de dominio</li>
+<li>Diagramas de Bounded Contexts</li>
+<li>Glosario del lenguaje ubicuo</li>
+<li>Definición de eventos del sistema</li>
+</ul>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+
+
+
+
+
+
+
+
+<figure class="author-image">
+    <a class="img" href="https://cesarob.github.io/" style="background-image: url(/images/logo.png)"><span class="hidden">Cesar Ortiz's Picture</span></a>
+</figure>
+
+
+<section class="author">
+  <h4><a href="https://cesarob.github.io/">Cesar Ortiz</a></h4>
+  
+  <p>Read <a href="https://cesarob.github.io/">more posts</a> by this author.</p>
+  
+  <div class="author-meta">
+    <span class="author-location icon-location">Madrid, Spain</span>
+    
+  </div>
+</section>
+
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Entendiendo%20DDD&nbsp;-&nbsp;Cesarob%27s&amp;url=https%3a%2f%2fcesarob.github.io%2fpost%2fentendiendo-ddd%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fcesarob.github.io%2fpost%2fentendiendo-ddd%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+  </a>
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fcesarob.github.io%2fpost%2fentendiendo-ddd%2f&amp;description=Entendiendo%20DDD"
+      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+      <span class="hidden">Pinterest</span>
+  </a>
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=https%3a%2f%2fcesarob.github.io%2fpost%2fentendiendo-ddd%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+  </a>
+</section>
+
+
+
+    
+
+<div id="disqus_thread"></div>
+<script>
+
+
+
+
+var disqus_config = function () {
+this.page.url = "https:\/\/cesarob.github.io\/post\/entendiendo-ddd\/";  
+this.page.identifier = "https:\/\/cesarob.github.io\/post\/entendiendo-ddd\/"; 
+};
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https://cesarob.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+
+
+
+
+  </footer>
+</article>
+
+</main>
+
+
+  <aside class="read-next">
+  
+      <a class="read-next-story" style="no-cover" href="/post/recursos-ddd/">
+          <section class="post">
+              <h2>Recursos sobre DDD</h2>
+              
+          </section>
+      </a>
+  
+  
+      <a class="read-next-story prev" style="no-cover" href="/post/em-tl-y/">
+          <section class="post">
+              <h2>De Em, TL y...</h2>
+          </section>
+      </a>
+  
+</aside>
+
+
+
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">Cesarob&#39;s</a> </section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="/js/index.js"></script>
+    
+</body>
+</html>
+
