@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es-es">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+    
+        <meta name="twitter:card" content="summary"/>
+    
+
+
+
+<meta name="twitter:title" content="Estructurar el código en una aplicación DDD"/>
+<meta name="twitter:description" content=""/>
+<meta name="twitter:site" content="@cesarob"/>
+
+
+
+  	<meta property="og:title" content="Estructurar el código en una aplicación DDD &middot; Cesarob&#39;s" />
+  	<meta property="og:site_name" content="Cesarob&#39;s" />
+  	<meta property="og:url" content="https://cesarob.github.io/post/estructurar-codigo-ddd/" />
+
+    
+        
+            <meta property="og:image" content="/images/cover.jpg"/>
+        
+    
+
+    
+    <meta property="og:description" content="" />
+  	<meta property="og:type" content="article" />
+    <meta property="article:published_time" content="2023-04-11T16:17:28&#43;02:00" />
+
+    
+    <meta property="article:tag" content="DDD" />
+    
+    
+
+    <title>Estructurar el código en una aplicación DDD &middot; Cesarob&#39;s</title>
+
+    
+    <meta name="description" content="Una de las cosas a las que le daba mas vueltas con respecto a DDD, es como estructuraría el código en un proyecto greenfield.
+La estructura de Codesai Según veo" />
+    
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/images/favicon.ico">
+	  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/css/nav.css" />
+
+    
+
+    
+
+    
+      
+          <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Cesarob&#39;s" />
+      
+      
+    
+    <meta name="generator" content="Hugo 0.68.3" />
+
+    <link rel="canonical" href="https://cesarob.github.io/post/estructurar-codigo-ddd/" />
+
+    
+      
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name":  null ,
+        "logo": "https://cesarob.github.io/images/logo.png"
+    },
+    "author": {
+        "@type": "Person",
+        "name":  null ,
+        
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://cesarob.github.io/images/logo.png",
+            "width": 250,
+            "height": 250
+        }, 
+        
+        "url":  null ,
+        "sameAs": [
+            
+            
+             
+             
+             
+             
+             
+            
+        ]
+    },
+    "headline": "Estructurar el código en una aplicación DDD",
+    "name": "Estructurar el código en una aplicación DDD",
+    "wordCount":  940 ,
+    "timeRequired": "PT5M",
+    "inLanguage": {
+      "@type": "Language",
+      "alternateName": "en"
+    },
+    "url": "https://cesarob.github.io/post/estructurar-codigo-ddd/",
+    "datePublished": "2023-04-11T16:17Z",
+    "dateModified": "2023-04-11T16:17Z",
+    
+    "keywords": "DDD",
+    "description": "",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://cesarob.github.io/post/estructurar-codigo-ddd/"
+    }
+}
+    </script>
+    
+
+
+    
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-111824175-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        
+    </ul>
+
+    
+    <a class="subscribe-button icon-feed" href="/index.xml">Subscribe</a>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+      <a class="blog-logo" href="https://cesarob.github.io/"><img src="/images/logo.png" alt="Home" /></a>
+  
+  
+      <a class="menu-button icon-feed" href="/index.xml" >&nbsp;&nbsp;Subscribe</a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">Estructurar el código en una aplicación DDD</h1>
+        <small></small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2023-04-11T16:17:28&#43;02:00">
+            Apr 11, 2023
+          </time>
+        
+         
+          <span class="post-tag small"><a href="https://cesarob.github.io//tags/ddd/">#DDD</a></span>
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      <p>Una de las cosas a las que le daba mas vueltas con respecto a DDD, es como estructuraría el código en un proyecto greenfield.</p>
+<h2 id="la-estructura-de-codesai">La estructura de Codesai</h2>
+<p>Según veo el libro de <a href="https://www.amazon.com/Learning-Domain-Driven-Design-Aligning-Architecture/dp/1098100131">Vlad</a> lo que comenta es que tengas una App Layer que sea el Api a tu dominio. Eso unido al tema de los comandos, me hace compararlo con la estructura de código que <a href="https://github.com/Codesai/auction_house_ddd">nos mostró Codesai</a>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">auction_house/
+├── business
+│   ├── actions
+│   │   └── commands
+│   └── model
+│       ├── auction
+│       │   ├── events
+│       │   ├── exceptions
+│       │   └── services
+│       ├── bidder
+│       ├── generic
+│       └── owner
+└── infrastructure
+    ├── api
+    │   └── dtos
+    ├── delivery_mechanism
+    ├── events
+    ├── processes
+    └── repository
+</code></pre></div><p>Dentro de un subdominio (auction_house) está separada la capa de <strong>business</strong> de la de <strong>infrastructure</strong>.
+Bajo <strong>model</strong> tenemos los diferentes agregados. Por ejemplo auction es un agregado. Dentro de dicho folder estará el codigo del agregado y del resto de entidades relacionadas con él.</p>
+<h3 id="business">Business</h3>
+<h4 id="el-dichoso-agregado">El dichoso agregado</h4>
+<p>¿Y por qué de ese nombre? El nombre viene de que es una entidad que define un <strong>límite de consistencia</strong>. De hecho las entidades no tienen sentido por ellas mismas, sino que se implementan en el contexto de un agregado. Básicamente es una jerarquía de entidades, de ahí el nombre (un agregado).</p>
+<p>La consistencia se garantiza cambiando el estado del agregado sólo desde el código del propio agregado. Desde fuera sólo se puede cambiar el estado a través de su interfaz pública.
+Vlad comenta que el estado se cambia a través de comandos.</p>
+<p>También es el <strong>límite transaccional</strong>.</p>
+<p>Se puede relacionar con otros agregados por el id de la entidad padre de los otros agregados.</p>
+<p>¡Y ojo! El agregado no sabe de persistencia. Vamos, que no hace commits ni rollbacks.</p>
+<h4 id="actions">Actions</h4>
+<p>Las <strong>actions</strong> es un concepto que en Nextail también manejabamos. De hecho nosotros las teníamos divididas en Finders y Actions, y el concepto viene del <a href="https://www.codurance.com/publications/2017/12/08/introducing-idd">Interaction driven Design (IDD)</a> de <strong>Sandro Mancuso</strong>.</p>
+<p>El action en la estructura propuesta por Codesai es el Api del dominio.</p>
+<p>Una alternativa a tener las actions sería el tener un api en una ‘fachada’ por ejemplo, o N fachadas, una por agregado, se me ocurre. A día de hoy me gusta más usar las acciones.</p>
+<p>La acción recibe el <strong>command</strong>, que ya tiene todos sus datos validados. Si por ejemplo tenemos un endpoint http donde se define un <em>schema</em>, ese schema a nivel de tipo de datos puede ser validado automáticamente por la validación automática del FW. Posteriormente, al construir el commando podríamos hacer validaciones adicionales.</p>
+<p>Incluso si no haces DDD, salvo que estes puedes usar actions como punto de entrada a tus módulos funcionales. Te va a delimitar la capa de fricción entre ellos.
+Recalco lo de módulos funcionales, porque es un patrón que pedería su utilidad en librerías o frameworks.</p>
+<p><img src="/images/estructurar-codigo-ddd/hexagonal-arquitecture.png" alt="Hexagonal Arquitecture"></p>
+<p><strong>Concluyendo las acciones y los comandos son el application layer</strong>.</p>
+<h4 id="generic">Generic</h4>
+<p>Otro folder que puede llamar la atención en la estructura anterior es <em>generic</em>. El nombre viene de los tipos de subdominios que usa DDD: core, generic and supporting.
+Aquí irán cosillas genéricas que no son específicas de un agregado concreto. Por ejemplo podemos meter ahí <em>value objects</em> que estemos usando en diferentes agregados.</p>
+<h4 id="model">Model</h4>
+<p><strong>Model</strong> es otra palabra confusa… Ya que nos recuerda a los <em>models</em> del patrón <em>active record</em>. Por otro lado también es muy común ver <em>domain</em> como alternativa.</p>
+<p>¿Pero que es <em>model</em> si DDD habla de <em>entities</em>? Entiendo que Coldesai hace uso de model, porque estamos hablando de un <strong>modelo de domino</strong>; una representación de la realidad.</p>
+<h4 id="services">Services</h4>
+<p>En el ejemplo anterior vemos que dentro del agregado hay un folder services. Ahí se deberán poner colaboradores del agregado que <strong>no tengan estado</strong>.
+También podríamos tener services bajo model, en el caso de tener un servicio que se reutilizara entre agregados.</p>
+<h3 id="infrastructure">Infrastructure</h3>
+<p>Dentro de la infraestructura tendremos el delivery mechanism. Hay un mito por ahí de que un comando no puede devolver datos. Pero es solo un mito… ¿Por qué no vas a devolver datos?</p>
+<p>IMO puedes perfectamente devolver datos, es más, no veo ningún problema en llamar a una action y a un finder en un controller, si tiene sentido. No nos pongamos restricciones absurdas…</p>
+<h2 id="y-no-podemos-usar-más-de-un-agregado">¿Y no podemos usar más de un agregado?</h2>
+<p>Si, si es posible. El libro de  Vlad menciona un par de patrones: Saga y Process Manager. La principal diferencia es que el Process Manager necesita mantener el estado, por lo que será el mismo un agregado.</p>
+<p>Supongo que una saga podría englobarse a nivel de código como un servicio a nivel del modelo, o incluso como servicio de un nivel superior.</p>
+<p>Aparte de la Saga y el Process Manager, a mi parecer no veo ningún problema en acceder a más de un agregado en una acción si tu gestor de base de datos te lo permite. Simplemente todo deberá estar en la misma transacción.</p>
+<h2 id="propuesta-final-de-estructura-de-código">Propuesta final de estructura de código</h2>
+<p>A día de hoy me decantaría por la siguiente estructura:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">a_subdomain/
+├── app
+│   ├── actions
+│   └── commands
+├── domain
+└── infra
+</code></pre></div><p>He aplanado la estructura de Codesai y he cambiado al final model por domain. Este cambio me permitiría tener más de un modelo dentro del dominio, si es que tiene sentido&hellip; Por lo que leo un modelo diferente debiera ser un <em>bounded context</em> diferente <code>¯\_(ツ)_/¯</code>.</p>
+<p>Por otro lado el tener en el mismo nivel del arbol de directorio app, infra y domain tenemos claramente identificadas esas tres capas.</p>
+<h2 id="y-donde-injectamos-las-dependencias">¿Y donde injectamos las dependencias?</h2>
+<p>La injección de las dependencias lo tenemos que tener en infra. Puede ser algo tan sencillo como una factoría.</p>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+
+
+
+
+
+
+
+
+<figure class="author-image">
+    <a class="img" href="https://cesarob.github.io/" style="background-image: url(/images/logo.png)"><span class="hidden">Cesar Ortiz's Picture</span></a>
+</figure>
+
+
+<section class="author">
+  <h4><a href="https://cesarob.github.io/">Cesar Ortiz</a></h4>
+  
+  <p>Read <a href="https://cesarob.github.io/">more posts</a> by this author.</p>
+  
+  <div class="author-meta">
+    <span class="author-location icon-location">Madrid, Spain</span>
+    
+  </div>
+</section>
+
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Estructurar%20el%20c%c3%b3digo%20en%20una%20aplicaci%c3%b3n%20DDD&nbsp;-&nbsp;Cesarob%27s&amp;url=https%3a%2f%2fcesarob.github.io%2fpost%2festructurar-codigo-ddd%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fcesarob.github.io%2fpost%2festructurar-codigo-ddd%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+  </a>
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fcesarob.github.io%2fpost%2festructurar-codigo-ddd%2f&amp;description=Estructurar%20el%20c%c3%b3digo%20en%20una%20aplicaci%c3%b3n%20DDD"
+      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+      <span class="hidden">Pinterest</span>
+  </a>
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=https%3a%2f%2fcesarob.github.io%2fpost%2festructurar-codigo-ddd%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+  </a>
+</section>
+
+
+
+    
+
+<div id="disqus_thread"></div>
+<script>
+
+
+
+
+var disqus_config = function () {
+this.page.url = "https:\/\/cesarob.github.io\/post\/estructurar-codigo-ddd\/";  
+this.page.identifier = "https:\/\/cesarob.github.io\/post\/estructurar-codigo-ddd\/"; 
+};
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https://cesarob.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+
+
+
+
+  </footer>
+</article>
+
+</main>
+
+
+  <aside class="read-next">
+  
+  
+      <a class="read-next-story prev" style="no-cover" href="/post/recursos-ddd/">
+          <section class="post">
+              <h2>Recursos sobre DDD</h2>
+          </section>
+      </a>
+  
+</aside>
+
+
+
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">Cesarob&#39;s</a> </section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="/js/index.js"></script>
+    
+</body>
+</html>
+
